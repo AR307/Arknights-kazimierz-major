@@ -3,8 +3,6 @@ name: Arknight activity
 on:
   schedule:
     - cron: '0 22,10 * * *' #6点、18点执行，修改时注意时区
-  workflow_dispatch:
-
 jobs:
   run:
     runs-on: ubuntu-latest
